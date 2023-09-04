@@ -1,0 +1,15 @@
+GET http://localhost:5231/api/Movies HTTP/1.1
+User-Agent: Fiddler
+Host: localhost:5231
+
+
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+Date: Mon, 04 Sep 2023 09:39:27 GMT
+Server: Kestrel
+Transfer-Encoding: chunked
+
+1eb
+[{"mid":101,"title":"Shershaah","director":"VishuVardhan","releaseDate":"2021-07-21T00:00:00","genre":"Action","rating":4.3},{"mid":102,"title":"83","director":"Kabir Khan","releaseDate":"2021-12-12T00:00:00","genre":"Sports/Drama","rating":4},{"mid":103,"title":"Pathaan","director":"S Anand","releaseDate":"2023-01-24T00:00:00","genre":"Spy/Action Thriller","rating":3.9},{"mid":104,"title":"Padmaavat","director":"SLB","releaseDate":"2018-08-08T00:00:00","genre":"Historic","rating":4.3}]
+0
+
